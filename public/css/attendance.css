@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.page-container {
+    background-color: #b8cae7;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.card {
+    background-color: #4f6890;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.dashboard-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.subject-form select,
+.card select,
+.card input[type="text"] {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.card button {
+    padding: 10px 16px;
+    background-color: #ffffff;
+    color: #4f6890;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #e6e6e6;
+}
+
+#successMsg {
+    display: none;
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid #c3e6cb;
+}
+
+.card table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.card table th,
+.card table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.card table th {
+    background-color: #f1f1f1;
+}
+
+.search-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 20px;
+}
+
+.search-wrapper input {
+    padding: 7px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.dashboard-link:hover {
+    background-color: #e0e0e0;
+}
